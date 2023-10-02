@@ -33,6 +33,7 @@ def test_web():
         driver = webdriver.Remote(
             command_executor='http://chromium:4444',
             options=chrome_options)
+        
         driver.set_window_size(width=1920, height=1080)
         driver.maximize_window()
 

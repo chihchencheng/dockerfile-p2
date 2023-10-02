@@ -13,8 +13,6 @@ services:
     # command: ./exec_test.sh
     ports:
       - "4443:4444"
-    links:
-        - "webdriver: chromium"
 
     
   chromium:
